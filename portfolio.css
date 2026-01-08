@@ -46,8 +46,10 @@
 /* main style */
 header{
     background-color: #fff8f3;
-   background: url(../hero-code/images/developer.png);
+   background-image: url(./developer.png);
+   background-repeat: no-repeat;
     padding: 50px;
+    background-position: 23px 38px, botton right;
 }
 nav{
     width: 71%;
@@ -95,6 +97,10 @@ nav .blog a {
     color: #757575;
     line-height: 30px;
     margin-bottom: 30px;
+}
+.img{
+    background-image: url(./header_bg.png);
+    background-repeat: no-repeat;
 }
 #banner .img {
     max-width: 585px;
@@ -189,3 +195,45 @@ nav .blog a {
     line-height: 16px;
     color: #757575;
 }
+.center{
+    text-align: center;
+}
+footer{
+    margin: 130px;
+    background-color: #fff8f3;
+    padding: 130px 0;
+}
+footer .footer-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+.footer-container h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-container .social{
+    max-width: 562px;
+}
+.footer-container .social p{
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.footer-container .icons a{
+    margin-right: 24px;
+}
+.footer-container form input[type="text"], .footer-container form textarea {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
+
+
